@@ -1,0 +1,18 @@
+# Pick only what you need.
+
+# RESTORE_BACKEND=hf_space  (sends photos to a third-party Hugging Face Space, read README first)
+gradio_client>=1.0
+
+# RESTORE_BACKEND=gfpgan    (local restoration, pulls in PyTorch, needs several GB and a GPU for speed)
+# gfpgan
+# torch
+
+# FACE_BACKEND=deepface     (alternative to insightface, MIT-licensed code)
+# deepface
+# tf-keras
+
+# iPhone HEIC photos
+pillow-heif>=0.16
+
+# Tests
+pytest>=8

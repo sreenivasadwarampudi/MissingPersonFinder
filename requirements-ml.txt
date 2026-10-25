@@ -1,0 +1,4 @@
+# Real face matching (FACE_BACKEND=insightface). CPU only, no GPU needed.
+insightface>=0.7.3
+onnxruntime>=1.18
+opencv-python-headless>=4.9

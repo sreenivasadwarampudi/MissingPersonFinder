@@ -1,0 +1,13 @@
+# Core (light) dependencies. Enough to run the whole API with FACE_BACKEND=mock.
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0
+psycopg[binary]>=3.1
+pgvector>=0.3
+pydantic[email]>=2.7
+pydantic-settings>=2.3
+pyjwt>=2.8
+pillow>=10.3
+httpx>=0.27
+python-multipart>=0.0.9
+numpy>=1.26
